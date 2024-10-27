@@ -25,6 +25,10 @@ Limitations/Caveats:
 In an ideal world all of these caveats improve (except for maybe relying on tar/unzip/curl/wget, that's kinda fundamental).
 
 
+## Run installer in isolated environments
+
+If your environment is isolated from the internet but you do have a mirror of GitHub at your disposal, you can set `INSTALLER_BASE_URL` to your mirrors URL and the installer will use it to download the release artifacts.
+
 
 ## Adding things to PATH
 
